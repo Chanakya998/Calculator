@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Basic Calculator</h1>
+        <div class="input">
+            <label>Input first value: <input id="first" onkeyup="store()" type="number" required></label>
+            <label>Input Second value: <input id="second" onkeyup="store()" type="number" required></label>
+        </div>
+        <div class="buttons">
+            <button onclick="add()">Addition</button>
+            <button onclick="sub()">Subtraction</button>
+            <button onclick="mul()">Multiplication</button>
+            <button onclick="div()">Division</button>
+        </div>
+        <div class="ans">
+            <h2>Your answer is: </h2>
+            <h2 id="answer" > </h2>
+        </div>
+    </div>
+</body>
+</html>

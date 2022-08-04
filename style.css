@@ -1,0 +1,77 @@
+/* body * {border: 1px solid red} */
+
+body {
+    background: url(https://www.wallpaperup.com/uploads/wallpapers/2012/09/29/17032/f160bae67cd58cc5bda6eb0e5149c3c0-700.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color:aquamarine
+}
+
+.main {
+    background-color: rgba(11, 63, 112, 0.8);
+    width: 650px;
+    height: 300px;
+    margin: 5% auto auto auto;
+    border-radius: 40px;
+}
+
+h1 {
+    width: 40%;
+    margin: 20% auto 3% auto;
+    padding-top: 30px;
+}
+
+.input, .buttons {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+}
+
+.buttons {
+    width: 75%;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.input input {
+    padding:5px;
+    border-radius: 15px;
+    width: 100px;
+    border-color: transparent;
+    
+}
+
+input:focus, input:hover {
+    border-color: transparent;
+    background-color: aquamarine;
+    color: rgb(11, 63, 112);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.buttons button {
+    padding: 5px;
+    border-radius: 15px;
+    width:100px;
+    border-color: transparent;
+}
+
+button:hover {
+    background-color: aquamarine;
+    color:rgb(11, 63, 112);
+    cursor: pointer;
+}
+
+h2 {
+    display: inline-block;
+}
+.ans {
+    width: 40%;
+    margin: auto;
+}
